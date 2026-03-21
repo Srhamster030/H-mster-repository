@@ -15,7 +15,7 @@ FONT{
 #z{
    font-size: 14px;
 }
-#v{
+#B{
     text-decoration: none;
     color: black;
 }
@@ -24,10 +24,10 @@ FONT{
     display: flex;
     justify-content: space-between;
 }
-.w{
+.n{
     padding-top: 28px;
 }
-.one{
+.h{
     display: flex;
 }
 
