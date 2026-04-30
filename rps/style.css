@@ -12,6 +12,9 @@ body{
     font-size: 60px;
     background: linear-gradient(#efdff9, #dcc0ec);
 }
+h5{
+    text-size: 30px;
+}
 
 h1{
     font-size: 90px;
