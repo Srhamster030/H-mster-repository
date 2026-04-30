@@ -1,14 +1,6 @@
-*{
-   font-size: 130px;
-}
-
-body {
-    background:#137a7f;
-}
-
-button {
-    background: #bec8d1;
-}
-h1 {
-    color: #86cecb;
+let clicks = 0;
+function sumarClick() {
+	clicks++;
+	let heading = document.querySelector('#contador');
+    heading.innerHTML = clicks;
 }
