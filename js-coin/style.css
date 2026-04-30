@@ -1,9 +1,17 @@
-*{
-    font-size:100px;
+body{
+    padding-top: 0px;
+    padding-bottom: 300px;
+    background: linear-gradient(#33e7f7, #00ddc0);
+    font-size: 60px;
     text-align: center;
-    background-color: cyan;
+}
+
+h2{
+    font-size: 50px;
+    font-style: oblique;
 }
 
 button{
-    background-color: blue;
+    background-color: #00ddc0;
+    font-size: 50px;
 }

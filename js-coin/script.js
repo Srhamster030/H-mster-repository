@@ -1,13 +1,28 @@
-function coin(){
-    let randomNum = Math.random();
-    console.long(randomNum);
-    let result =
-    let subtitle = document.querySelector("h2");
+let choice = "";
 
-    if (randomNum < 0.5){
-        subtitle.innerHTML = "Heads"
-        else{
-            subtitle.innerHTML = "Tails";
-        }
+function Head(){
+    choice = "Heads";
+}
+function Tails(){
+    choice = "Tails";
+}
+function coin(){
+    let resultText = document.getElementById("resultado");
+    let messageText = document.getElementById("resultado");
+    if (choice == ""){
+        messageText.innerHTML = "Result";
+        return;
     }
+    let number = Math.ranndom();
+    let result;
+    if (number < 0.5){
+        result = "Heads"
+    } else{
+        result = "Tails";
+    }
+    resultText.innerHTML = result;
+    if (choice == result){
+        messageText.innerHTML = "You Win";
+    } else {
+        messageText.innerHTML = "You loose";
     }
