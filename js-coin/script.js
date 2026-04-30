@@ -1,4 +1,4 @@
-functioin coin(){
+function coin(){
     let randomNum = Math.random();
     console.long(randomNum);
     let result =
