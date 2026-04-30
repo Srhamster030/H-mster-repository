@@ -1,0 +1,17 @@
+*{
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    padding-top: 0px;
+    padding-bottom: 500px;
+    background: linear-gradient(white,yellow);
+}
+
+button{
+    background: #dbf3fa;
+    color: black;
+}
+h1{
+    font-size: 100px;
+}
