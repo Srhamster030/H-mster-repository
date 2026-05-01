@@ -1,6 +1,6 @@
 let choice = "";
 
-function Head(){
+function Head() {
     choice = "Heads";
 }
 function Tails(){
@@ -9,20 +9,15 @@ function Tails(){
 function coin(){
     let resultText = document.getElementById("resultado");
     let messageText = document.getElementById("resultado");
-    if (choice == ""){
+    if (choice == "") {
         messageText.innerHTML = "Result";
         return;
     }
-    let number = Math.ranndom();
+    let number = Math.random();
     let result;
     if (number < 0.5){
-        result = "Heads"
+        result = "Heads";
     } else{
         result = "Tails";
     }
     resultText.innerHTML = result;
-    if (choice == result){
-        messageText.innerHTML = "You Win";
-    } else {
-        messageText.innerHTML = "You loose";
-    }
