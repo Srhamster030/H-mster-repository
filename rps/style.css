@@ -5,13 +5,14 @@ body{
     padding-bottom: 100px;
     background: linear-gradient(#e0f7fa,#86cecb);
     font-style: oblique;
-}
-
-.RPS{
     button{
     font-size: 60px;
     background: linear-gradient(#efdff9, #dcc0ec);
 }
+}
+
+
+
 h5{
     text-size: 30px;
 }

@@ -1,25 +1,33 @@
-function RPS(){
+function game(userChoice){
     let randomNum = Math.random();
-    console.long(randomNum);
-    let result =
-    let subtitle = document.querySelector("RPS");
+    let compChoice;
+    if (randomNum < 0.33){
+        compChoice = "Rock";
+    }else if (randomNum < 0.66){
+            compChoice = "Paper";
+    }else if (randomNum < 1){
+        compChoice = "Scisors";
+    }
 
-    if (randomNum < 0.5){
-        subtitle.innerHTML = "Rock"
-        else{
-            subtitle.innerHTML = "Paper";
+    console.long(compChocie);
+
+    let result = document.querySelector
+    ("#result");
+    if(userChoice == comChoice) {
+        result.innerHTML= "Tie";
+    }else if (userChoice == "Rock"){
+        if (compChoice == "Paper"){
+            result.innerHTML = "You loose";
+        }else {
+            result.innerHTML = "You won";
         }
-
-    }
     }
 
+}
 
-    const result = Rock;
+// document.addEvenListener("DOMContentLoaded", function(){
+//     //your code here
+//     document.querySelector("#rock-button").onclick = game("Rock");
+//     document.querySelector("#rock-button").innerHTML
+// });
 
-    if (result = Rock) {
-        console.log("You won");
-    } else (result = Scissors) {
-        console.log("You loose");
-    } else {
-        console.log("Empate");
-    }
