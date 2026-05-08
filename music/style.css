@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+.instrument{
+    background-color: black;
+    color: cyan;
+}
+
+.active {
+    background-color: cyan;
+    color: purple;
+}
