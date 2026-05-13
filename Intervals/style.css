@@ -1,0 +1,17 @@
+*{
+    font-size: 100px;
+    text-align: center;
+}
+
+body{
+    padding-top: 40px;
+    padding-bottom: 600px;
+    background: linear-gradient(#e0f7fa,#86cecb,black);
+}
+
+button{
+    background: linear-gradient(purple,blue);
+    color: white;
+}
+
+
